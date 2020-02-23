@@ -1,0 +1,4 @@
+n=int(input())
+q=bin(n)
+q=q[2:]
+print(max(map(len,q.split('0'))))
